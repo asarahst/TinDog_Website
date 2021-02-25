@@ -1,0 +1,174 @@
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    padding-bottom: 144px;
+}
+
+ /*navgation bar*/
+
+.navbar {
+    margin-bottom: 4.5rem;
+}
+
+ .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/*buttons first section*/
+
+.button-down {
+    margin: 5% 3% 5% 0;
+}
+
+/*img first section*/
+.dog-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+/*second section*/
+
+#features {
+    padding: 6% 0;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+
+.icon-section-2 {
+    color: #ef8172;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.icon-section-2:hover {
+    color: #ff4c68;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+
+/*third section*/
+
+#testimonials {
+    padding: 6% 0;
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+/*Press Section*/
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/*Call to Action*/
+
+#cta {
+    background-color: #ff4c68;
+    padding: 8% 0;
+    color: #fff;
+}
+
+/*Footer*/
+
+#footer {
+    padding: 8% 0;
+    background-color: #fff;
+}
+
+#footer p {
+    color: #8f8f8f;
+    margin-top: 5px;
+}
+
+#footer i {
+    margin: 5px;
+}
+
+@media (max-width: 1028px) {
+    .dog-img {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #pricing {
+        padding: 100px 16px;
+    }
+
+    h1,h2{
+        font-size: 3rem;
+    }
+}
